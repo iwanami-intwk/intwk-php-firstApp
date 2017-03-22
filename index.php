@@ -14,6 +14,10 @@
 			<td>
 				<h1 id = "message"><?php echo "Hello World!"; ?></h1>
 				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>.
+				<?php
+				$hello="Hello World";
+				print ($hello);
+				?>
 			</td>
 		</tr>
 	</table>
